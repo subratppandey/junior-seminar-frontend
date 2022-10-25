@@ -39,15 +39,6 @@ body{
     margin-top: -15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.forget{
-    text-decoration: none;
-    color: #4A8ED2;
-    margin-top: 5px;
-    padding: 10px;
-}
-.forget:hover{
-    text-decoration: underline;
-}
 .log_in{
     height: 55px;
     width: 320px;
@@ -101,31 +92,10 @@ body{
     margin-bottom: 10px;
     margin-top: 15px;
 }
-.info{
-    flex-direction: column;
-    margin-top: 18px;
-    margin-left: 550px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.information{
-    text-decoration: none;
-}
-.information:hover{
-    text-decoration: underline;
-    background-color: rgb(11,101,194);
-    border-radius: 5px;
-}
 
 @media only screen and (max-width: 768px){
     .container{
         margin-left: 100px;
         margin-bottom: 48px;
-    }
-    footer{
-        display:none;
-    }
-    .info{
-        margin-left: 180px;
-        margin-top: -30px;
-    }    
+    }   
 }
